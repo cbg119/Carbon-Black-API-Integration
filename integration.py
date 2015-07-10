@@ -243,8 +243,8 @@ def fireeye_integrate():
 	  global commandlog, command, cb_server_token_input
 	  count = 0
 
-	  ######Temp writing the wildfire repo to install the latest cbapi rpm that's not inclueded
-	  ######in the FireEye repo
+	  ######Temp writing the wildfire repo to install the latest cbapi rpm that's not included
+	  ######in the FireEye repo. Temporary fix.
 	  repofile = open(os.path.join("/etc/yum.repos.d/", "Wildfire.repo"), "w")
 	  print "\nWriting Wildfire .repo file..."
 
